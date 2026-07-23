@@ -14,7 +14,7 @@ In this work, we propose a different paradigm of **parameter-space functional di
 Our approach shifts the focus of hallucination mitigation from active, heavy online tracking of dynamic activations (which incurs high latency) to one-time offline profiling of static parameters, facilitating zero-overhead online calibration in a single forward pass.
 
 <p align="center">
-  <img src="figures/teaser.jpeg" width="85%" alt="Paradigm Comparison">
+  <img src="figures/teaser.jpeg" width="75%" alt="Paradigm Comparison">
 </p>
 
 ---
@@ -33,7 +33,7 @@ This taxonomy uncovers three core structural laws inside LVLMs:
 * **Attention Entropy Resolution**: Grounded reasoning exhibits distributed, high-entropy attention, whereas hallucinations stem from overfocused, low-entropy routing.
 
 <p align="center">
-  <img src="figures/layer_ridge.png" width="75%" alt="Layer-wise Division of Labor">
+  <img src="figures/framework.jpg" width="85%" alt="framework">
 </p>
 
 Based on these discoveries, we develop **Multimodal Parameter-space Attention Calibration (MPAC)**, which dynamically scales up grounded propagators (VTH/ICH) and penalizes associative generators (VSAH/SAH) on-the-fly during autoregressive decoding, achieving state-of-the-art mitigation with a single forward pass and negligible latency.
