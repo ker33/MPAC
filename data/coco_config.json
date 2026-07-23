@@ -1,0 +1,23 @@
+{
+  "objects": [
+    "person", "bicycle", "car", "motorcycle", "airplane", "bus", "train", "truck", "boat", 
+    "bench", "bird", "cat", "dog", "horse", "sheep", "cow", "elephant", "bear", "zebra", 
+    "giraffe", "backpack", "umbrella", "handbag", "tie", "suitcase", "frisbee", "skis", 
+    "snowboard", "kite", "skateboard", "surfboard", "bottle", "cup", "fork", "knife", 
+    "spoon", "bowl", "banana", "apple", "sandwich", "orange", "broccoli", "carrot", 
+    "pizza", "donut", "cake", "chair", "couch", "bed", "table", "toilet", "laptop", 
+    "mouse", "remote", "keyboard", "phone", "microwave", "oven", "toaster", "sink", 
+    "refrigerator", "book", "clock", "vase", "scissors", "teddy", "hair", "toothbrush",
+    "bag", "ball", "bee", "bike", "box", "coat", "deer", "desk", "door", 
+    "duck", "fish", "floor", "fox", "frog", "glass", "hat", "key", "lamp", 
+    "lion", "lock", "paper", "pen", "pig", "plane", "plate", "rug", "shelf", 
+    "ship", "shirt", "shoe", "snake", "tiger", "toy", "wall", "wolf"
+  ],
+  "contexts": [
+    "kitchen", "street", "road", "ocean", "sky", "beach", "forest", "room", "office", 
+    "park", "ground", "wall", "floor", "house", "mountain", "garden", "river", "sea", "lake", 
+    "desert", "bridge", "school", "shop", "cloud", "rain", "snow", "wind", 
+    "sun", "moon", "star", "fire", "tree", "grass", "flower", "wood", 
+    "stone", "sand", "hill"
+  ]
+}

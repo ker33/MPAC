@@ -1,0 +1,17 @@
+# 忽略大模型权重
+models/
+
+# 忽略大型数据集
+data/coco/
+data/coco_annotations/
+data/images/
+data/MME/
+data/pope/
+
+# 忽略实验运行输出结果
+results/
+
+# 忽略 Python 缓存与编译文件
+**/__pycache__/
+*.pyc
+.DS_Store
